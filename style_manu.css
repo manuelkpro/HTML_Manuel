@@ -1,0 +1,114 @@
+body{
+	background-color: #E1ECF0;
+}
+div {
+	display:block;
+} 
+
+th{
+	background-color: #00A7E1;
+	font-family: "Arial";
+}
+tr{
+	background-color: #2886C9;
+	font-size: 14px;
+	font-family: "Arial";
+	font-weight: "regular";
+}
+h2{
+	margin-left: 52px;
+	color: #5d5765;
+	font-family: "Arial";
+}
+#uno{
+	background-color: #B5AABF;
+}
+#dos{
+	background-color: lightblue;
+}
+#tres{
+	background-color: #B5AABF;
+}
+.container{
+	width: 80%;
+	height: 300px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+.container2{
+	width: 100%;
+	height: 309px;
+	position: relative;
+	background-color: white;
+}
+.table {
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	width: 38%;
+}
+.headline{
+	margin: 0	auto;
+	width: 100%;
+	background-color: white;
+		color: #5d5765;
+}
+.name{
+	font-family: Arial;
+	font-weight: bold;
+	display: inline-block;
+	padding-left: 50%;
+}
+.circle{
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	margin-top: 16px;
+	margin-left: 37px;
+}
+/* ---- patrafos ---- */
+.paragraphs{
+	width: 100%;
+	background-color: white;
+}
+.logos{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 15px auto; 
+	display: block;
+}
+.col{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	font-family:'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #5d5765;
+	font-size: 14px;
+
+}
+
+.col > p{
+	display: block;
+	padding: 15px;
+	margin: 15px auto;
+	width: 80%;
+}
+
+/* ---- Tabla ---- */
+.left{
+	float: left;
+}
+.right{
+	float: right; 
+}
+.fifty{
+	width: 50%;
+	display: inline-block;
+}
+#cdmx{
+	max-width: 100%;
+	max-height: 100%;
+}
